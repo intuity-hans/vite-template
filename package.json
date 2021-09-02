@@ -1,0 +1,57 @@
+{
+	"name": "vite-template",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"@chakra-ui/icons": "^1.0.13",
+		"@chakra-ui/react": "^1.6.4",
+		"@emotion/react": "^11.4.0",
+		"@emotion/styled": "^11.3.0",
+		"framer-motion": "^4.1.17",
+		"react": "^17.0.0",
+		"react-dom": "^17.0.0",
+		"react-router-dom": "^5.2.0",
+		"zustand": "^3.5.7"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"serve": "vite preview",
+		"lint": "tsc && eslint ./src --ext .ts,.tsx"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"homepage": ".",
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version"
+		]
+	},
+	"devDependencies": {
+		"@rollup/plugin-eslint": "^8.0.1",
+		"@types/react": "^17.0.0",
+		"@types/react-dom": "^17.0.0",
+		"@types/react-router-dom": "^5.1.8",
+		"@typescript-eslint/eslint-plugin": "^4.18.0",
+		"@typescript-eslint/parser": "^4.18.0",
+		"@vitejs/plugin-react-refresh": "^1.3.1",
+		"eslint-config-airbnb-typescript": "^12.3.1",
+		"eslint-plugin-extra-rules": "^0.0.0-development",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"eslint-plugin-prefer-arrow": "^1.2.3",
+		"eslint-plugin-react": "^7.22.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"eslint-plugin-simple-import-sort": "^7.0.0",
+		"typescript": "^4.1.2",
+		"vite": "^2.4.0",
+		"vite-aliases": "^0.8.2",
+		"vite-plugin-eslint": "^1.3.0"
+	}
+}

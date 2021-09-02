@@ -1,0 +1,9 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"prettier.enable": false,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+}
